@@ -13,18 +13,18 @@ A repo to host the code involved in Thinkpad's solution<br><br>**Explanation**
 - data.shape provide the size of the data frame.
 - data.describe() provide information about,
 
-  **Count**: The number of non-null (non-missing) values.<br>
-  **Mean (Average)**: The average value of the data.<br>
-  **Standard Deviation**: A measure of the data's spread or dispersion.<br>
-  **Minimum**: The smallest value in the dataset.<br>
-  **25th Percentile**: The value below which 25% of the data falls (also known as the first quartile).<br>
-  **Median (50th Percentile)**: The middle value when the data is sorted.<br>
-  **75th Percentile**: The value below which 75% of the data falls (also known as the third quartile).<br>
-  **Maximum**: The largest value in the dataset.<br>
-  **Data Type Information**: It typically includes information about the data types of each column, such as whether a column contains numeric data,categorical data, or dates.<br>
-  **Handling Missing Values**: It may also indicate the count of missing (null or NaN) values in each column.<br>
-  **Data Range**: It provides an overview of the range of values within each column, which can be useful for understanding the data's distribution.<br>
-  **Percentiles**: The method often includes percentiles, such as the 25th and 75th percentiles, which help you understand the data's distribution and identify potential outliers.<br><br>
+  **Count**: The number of non-null (non-missing) values.<br><br>
+  **Mean (Average)**: The average value of the data.<br><br>
+  **Standard Deviation**: A measure of the data's spread or dispersion.<br><br>
+  **Minimum**: The smallest value in the dataset.<br><br>
+  **25th Percentile**: The value below which 25% of the data falls (also known as the first quartile).<br><br>
+  **Median (50th Percentile)**: The middle value when the data is sorted.<br><br>
+  **75th Percentile**: The value below which 75% of the data falls (also known as the third quartile).<br><br>
+  **Maximum**: The largest value in the dataset.<br><br>
+  **Data Type Information**: It typically includes information about the data types of each column, such as whether a column contains numeric data,categorical data, or dates.<br><br>
+  **Handling Missing Values**: It may also indicate the count of missing (null or NaN) values in each column.<br><br>
+  **Data Range**: It provides an overview of the range of values within each column, which can be useful for understanding the data's distribution.<br><br>
+  **Percentiles**: The method often includes percentiles, such as the 25th and 75th percentiles, which help you understand the data's distribution and identify potential outliers.<br><br><br>
 *	1D array data of MAGON AND MAGLAT of data frame is converted to 2D array data. And it was stored in variable X and y.
 *	Using train_test_split the whole data frame was splitted into training and test data set, such way that 70% of total data was used as training data set and remaining 30% data set is used test data set.
 *	Training and test data set is fitted to all four regression models.
