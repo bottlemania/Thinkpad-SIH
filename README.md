@@ -1,5 +1,5 @@
 # Thinkpad-SIH
-A repo to host the code involved in Thinkpad's solution<br><br>#Explanation
+A repo to host the code involved in Thinkpad's solution<br><br>**Explanation**
 
 * Pandas library is imported to read the csv file and to convert the csv file into Dataframe.
 *	Sklearn:
@@ -35,9 +35,9 @@ A repo to host the code involved in Thinkpad's solution<br><br>#Explanation
 *	Training and test data set is fitted to all four regression models.
 *	Errors and R square value was calculated for all Regression model.
 *	If the value of absolute error value and mean square value is very less means Regression model is better.
-*	The value of R square vale ranges from 0 to1 and if it’s value is greater than 0.9 the regression model is better.
+*	The value of R square vale ranges from 0 to1 and if it’s value is greater than 0.9 the regression model is better.<br>
 Here, for decision tree and Random Forest the error values are very smaller and R squared value is 1.
-Thus, either Decision tree or Random Forest can be used for prediction of volume of magnetic materials present which had created magnetic anomaly.
+<br>Thus, either Decision tree or Random Forest can be used for prediction of volume of magnetic materials present which had created magnetic anomaly.
 
 
 
