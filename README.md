@@ -13,7 +13,7 @@ A repo to host the code involved in Thinkpad's solution<br><br>**Explanation**
 - data.shape provide the size of the data frame.
 - data.describe() provide information about,
 
- _ Count: The number of non-null (non-missing) values.
+  Count: The number of non-null (non-missing) values.
   Mean (Average): The average value of the data.
   Standard Deviation: A measure of the data's spread or dispersion.
   Minimum: The smallest value in the dataset.
@@ -29,7 +29,7 @@ A repo to host the code involved in Thinkpad's solution<br><br>**Explanation**
   Data Range: It provides an overview of the range of values within each column, which can be useful for understanding the data's distribution.
    
   Percentiles: The method often includes percentiles, such as the 25th and 75th percentiles, which help you understand the data's distribution and identify potential outliers.
-_
+
 *	1D array data of MAGON AND MAGLAT of data frame is converted to 2D array data. And it was stored in variable X and y.
 *	Using train_test_split the whole data frame was splitted into training and test data set, such way that 70% of total data was used as training data set and remaining 30% data set is used test data set.
 *	Training and test data set is fitted to all four regression models.
