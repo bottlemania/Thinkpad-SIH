@@ -13,7 +13,7 @@ A repo to host the code involved in Thinkpad's solution<br><br>**Explanation**
 - data.shape provide the size of the data frame.
 - data.describe() provide information about,
 
-  Count: The number of non-null (non-missing) values.
+ _ Count: The number of non-null (non-missing) values.
   Mean (Average): The average value of the data.
   Standard Deviation: A measure of the data's spread or dispersion.
   Minimum: The smallest value in the dataset.
@@ -29,15 +29,15 @@ A repo to host the code involved in Thinkpad's solution<br><br>**Explanation**
   Data Range: It provides an overview of the range of values within each column, which can be useful for understanding the data's distribution.
    
   Percentiles: The method often includes percentiles, such as the 25th and 75th percentiles, which help you understand the data's distribution and identify potential outliers.
-
+_
 *	1D array data of MAGON AND MAGLAT of data frame is converted to 2D array data. And it was stored in variable X and y.
 *	Using train_test_split the whole data frame was splitted into training and test data set, such way that 70% of total data was used as training data set and remaining 30% data set is used test data set.
 *	Training and test data set is fitted to all four regression models.
 *	Errors and R square value was calculated for all Regression model.
 *	If the value of absolute error value and mean square value is very less means Regression model is better.
-*	The value of R square vale ranges from 0 to1 and if it’s value is greater than 0.9 the regression model is better.<br>
+*	The value of R square vale ranges from 0 to1 and if it’s value is greater than 0.9 the regression model is better.<br><br>
 Here, for decision tree and Random Forest the error values are very smaller and R squared value is 1.
-<br>Thus, either Decision tree or Random Forest can be used for prediction of volume of magnetic materials present which had created magnetic anomaly.
+<br><br>Thus, either Decision tree or Random Forest can be used for prediction of volume of magnetic materials present which had created magnetic anomaly.
 
 
 
