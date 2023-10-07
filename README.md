@@ -13,14 +13,14 @@ A repo to host the code involved in Thinkpad's solution<br><br>**Explanation**
 - data.shape provide the size of the data frame.
 - data.describe() provide information about,
 
-  Count: The number of non-null (non-missing) values.
-  Mean (Average): The average value of the data.
-  Standard Deviation: A measure of the data's spread or dispersion.
-  Minimum: The smallest value in the dataset.
-  25th Percentile: The value below which 25% of the data falls (also known as the first quartile).
-  Median (50th Percentile): The middle value when the data is sorted.
-  75th Percentile: The value below which 75% of the data falls (also known as the third quartile).
-  Maximum: The largest value in the dataset.
+  **Count**: The number of non-null (non-missing) values.
+  **Mean (Average)**: The average value of the data.
+  **Standard Deviation**: A measure of the data's spread or dispersion.
+  **Minimum**: The smallest value in the dataset.
+  **25th Percentile**: The value below which 25% of the data falls (also known as the first quartile).
+  **Median (50th Percentile)**: The middle value when the data is sorted.
+  **75th Percentile**: The value below which 75% of the data falls (also known as the third quartile).
+  **Maximum**: The largest value in the dataset.
   
   Data Type Information: It typically includes information about the data types of each column, such as whether a column contains numeric data,categorical data, or dates.
    
